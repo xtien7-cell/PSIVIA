@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2B4"/>
+      <stop offset="30%" stop-color="#00A8E8"/>
+      <stop offset="70%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="60%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Isotipo on left (0 to 90) -->
+  <g transform="translate(5, 5) scale(0.9)">
+    <path d="M 38 92 
+             C 28 85, 22 72, 20 58
+             C 18 42, 24 25, 38 14
+             C 48 6, 62 6, 72 12
+             C 80 17, 85 24, 85 34
+             C 85 39, 83 42, 80 43
+             C 82 45, 84 48, 83 52
+             C 81 55, 78 56, 76 56
+             C 78 58, 79 61, 78 63
+             C 76 65, 74 65, 72 65
+             C 74 68, 73 72, 70 74
+             C 65 77, 60 76, 56 77
+             C 53 82, 47 88, 38 92 Z" 
+          fill="url(#logoGrad)" />
+    <path d="M 34 26 C 27 34, 26 48, 28 58 C 30 67, 36 78, 44 83 C 36 77, 31 66, 30 55 C 29 44, 32 33, 39 24 C 42 20, 46 17, 50 15 C 44 17, 38 21, 34 26 Z" fill="#FFFFFF" opacity="0.25" />
+    <g stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+      <path d="M 44 65 L 48 50" />
+      <path d="M 48 50 L 40 40" />
+      <path d="M 48 50 L 56 38" />
+      <path d="M 40 40 L 33 32" />
+      <path d="M 40 40 L 43 27" />
+      <path d="M 56 38 L 54 25" />
+      <path d="M 56 38 L 67 32" />
+      <path d="M 56 38 L 68 44" />
+      <path d="M 33 32 L 43 27" stroke-dasharray="1,2" stroke-width="1.2" />
+      <path d="M 43 27 L 54 25" stroke-dasharray="1,2" stroke-width="1.2" />
+      <path d="M 54 25 L 67 32" stroke-dasharray="1,2" stroke-width="1.2" />
+      <path d="M 67 32 L 68 44" stroke-dasharray="1,2" stroke-width="1.2" />
+      <path d="M 40 40 L 56 38" stroke-dasharray="1,2" stroke-width="1.2" />
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="44" cy="65" r="2.4" />
+      <circle cx="48" cy="50" r="2.8" />
+      <circle cx="40" cy="40" r="2.6" />
+      <circle cx="56" cy="38" r="3.0" />
+      <circle cx="33" cy="32" r="2.2" />
+      <circle cx="43" cy="27" r="2.5" />
+      <circle cx="54" cy="25" r="2.6" />
+      <circle cx="67" cy="32" r="2.6" />
+      <circle cx="68" cy="44" r="2.2" />
+    </g>
+  </g>
+
+  <!-- Wordmark "PSIVIA" -->
+  <text x="100" y="55" font-family="'Inter', 'Montserrat', 'Helvetica Neue', Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="4" fill="url(#textGrad)">
+    PSIVI<tspan fill="#7C3AED">A</tspan>
+  </text>
+  <!-- Small dot under A -->
+  <circle cx="282" cy="63" r="3.5" fill="#7C3AED" />
+
+  <!-- Subtitle -->
+  <text x="102" y="76" font-family="'Inter', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#64748B" letter-spacing="0.3">
+    Plataforma Psicológica Inteligente
+  </text>
+  <text x="102" y="90" font-family="'Inter', Arial, sans-serif" font-size="9" font-weight="500" fill="#94A3B8" letter-spacing="0.2">
+    para Valoración, Interpretación y Análisis
+  </text>
+</svg>

@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  /* Paleta Oficial PSIVIA */
+  --color-primary: #0E172A; /* Bienestar - Azul Marino Profundo */
+  --color-primary-dark: #070B14;
+  --color-primary-light: #2F80ED; /* Equilibrio - Azul Eléctrico */
+  --color-psivia-teal: #00B5B8; /* Confianza - Turquesa */
+  --color-psivia-blue: #2F80ED; /* Equilibrio - Azul */
+  --color-psivia-purple: #6345A5; /* Tecnología - Violeta */
+  --color-psivia-navy: #0E172A; /* Bienestar - Marino */
+  --color-bg-page: #F8FAFC;
+  --color-bg-light: #EDF4FC;
+  --color-bg-card: #FFFFFF;
+  --color-text-primary: #0E172A;
+  --color-text-secondary: #475569;
+  --color-border: #CBD5E1;
+}
+
+body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-primary);
+  font-family: 'Open Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Reglas de impresión limpias para certificados y reportes */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  header, aside, .no-print, button {
+    display: none !important;
+  }
+
+  #cert-atencion-preview, #cert-asistencia-preview {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-height: none !important;
+  }
+
+  .carta-compromiso-page {
+    box-shadow: none !important;
+    border: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+    page-break-after: always;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm 14mm 12mm 14mm;
+  }
+}

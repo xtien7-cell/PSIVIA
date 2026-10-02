@@ -1,0 +1,6 @@
+{
+  "name": "PSIVIA — Historia Clínica y Plataforma Psicológica",
+  "description": "Historia clínica digital para psicología con inteligencia clínica IA, pruebas psicométricas, agenda y exportación de certificados y expedientes en PDF multipágina y página única.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
